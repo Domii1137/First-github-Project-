@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    My name is Dominique!!!
+    <section>
+        <nav>
+            <img src="./HTML Practise Assets/FES.svg" class="logo" alt="">
+            <ul>
+               <li><a href="#about">About</a></li> 
+               <li><a href="#discord">Discord</a></li> 
+               <li><a href="#contact">Contact</a></li> 
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div>
+                    <h1>Best place to learn frontend</h1>
+                    <p>Go from being an absolute beginner to pro with a simplified process</p>
+                    <button>Start now</button>
+                </div>
+                <figure>
+                <img src="./HTML Practise Assets/laptop.png" alt="Home page image">
+                </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div class="section__description">
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, magnam culpa. Neque enim accusantium iste nemo perferendis doloribus. Minima nulla nostrum quasi voluptatibus iste placeat nesciunt dicta dolores a quo.
+                    </p>
+                    <p class="section__description--para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, magnam culpa. Neque enim accusantium iste nemo perferendis doloribus. Minima nulla nostrum quasi voluptatibus iste placeat nesciunt dicta dolores a quo.
+                    </p>
+                </div>
+                <figure class="about__img--wrapper">
+                    <img src="./HTML Practise Assets/about.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <section id="discord">
+            <h2>Discord</h2>
+            <div class="section__description">
+
+                <figure class="about__img--wrapper">
+                    <img src="./HTML Practise Assets/discord.png" alt="Discord">
+                </figure>
+                <div>
+                    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eum nemo obcaecati ad omnis quisquam neque maiores necessitatibus natus tempora facere quod error laudantium maxime quis quas consectetur cum saepe, quo velit. Numquam alias omnis libero sunt praesentium asperiores ex!</p>
+                    <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium nulla qui enim, quidem eligendi hic commodi voluptate, temporibus quasi consequatur perferendis minus vel velit repudiandae ducimus beatae aliquam incidunt perspiciatis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <span>Email</span>
+                <input type="text" placeholder="jane@example.com">
+                <span>Message</span>
+                <textarea type="text" placeholder="jane@example.com"></textarea>
+            </form>
+        </section>
+    </main> 
+
+    <footer>
+        <img src="./HTML Practise Assets/FES.svg" alt="">
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="">Courses</a>
+        </div>
+        <p>Copyright Frontend Simplified</p>
+    </footer>
 </body>
 </html>
